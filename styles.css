@@ -54,22 +54,18 @@ body {
   align-items: center;
 }
 
-.pal{
+.pal {
   width: 40rem;
   background: var(--white);
   padding: 5rem 3rem;
   border-radius: 5px;
 }
 
-.pal > * {
-
-}
-
 input {
   width: 70%;
   border: none;
   outline: none;
-  border-bottom: 2px solid var (--color-sec);
+  border-bottom: 2px solid var(--color-sec);
   padding: 1rem 5px;
   font-size: 1.6rem;
 }
@@ -81,7 +77,9 @@ button {
   outline: none;
   border-radius: 3px;
   color: var(--white);
-  background: var(--color-primary)
+  background: var(--color-primary);
+  cursor: pointer;
+  
 }
 
 p.result {
